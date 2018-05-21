@@ -3,12 +3,14 @@
 
 #include "MyString.h"
 
-typedef struct Customer {
+typedef struct Customer
+{
 	String name;
 	int bottles;
 	int diapers;
 	int rattles;
 } Customer;
+
 
 
 /* read a string from the input file.  Creates a new string (you must call destroyString) */

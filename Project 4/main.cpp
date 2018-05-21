@@ -9,7 +9,8 @@ String purchase;
 String summarize;
 String quit;
 
-void displayTailAndClose() {
+void displayTailAndClose()
+{
 	char* rval;
 	char buff[BUFSIZ];
 	
@@ -75,11 +76,13 @@ int main(void) {
 	StringDestroy(&quit);
 }
 
-void readNum(int* p) {
+void readNum(int* p)
+{
 	fscanf(input_stream, "%d", p);
 }
 
-void readString(String* p) {
+void readString(String* p)
+{
 	char buff[BUFSIZ];
 	fscanf(input_stream, "%s", buff);
 	*p = StringCreate(buff);
