@@ -244,6 +244,7 @@ int main(void) {
 	printf("the sqrt of 26 is %g\n", sqrtRec(26.0, 0, 26.0));
 	printf("the sqrt of 2 is %g\n", sqrtRec(2.0, 0, 2.0));
 
+
 	/* test strCompare */
 	char* s1; char* s2;
 	s1 = "apple"; s2 = "apricot";
@@ -345,10 +346,16 @@ int main(void) {
 	printf("change 3 should be 1d, 1n, 0p and is: %dd %dn %dp\n", change3.dodeks, change3.nicks, change3.pennies);
 
 	Martian change4 = change(25);
-	printf("change 4 should be 2d, 0n, 1p and is: %dd %dn %dp\n", change4.dodeks, change4.nicks, change4.pennies);
+    printf("change 4 should be 2d, 0n, 1p and is: %dd %dn %dp\n", change4.dodeks, change4.nicks, change4.pennies);
+
 
 	/* A very simple and obvious test of the general form of Martian
 	 * be sure and test your solution more thoroughly!!!! */
-	change4 = change(25, 5, 12);
+
+	change4 = change(25, 5 , 12);
 	printf("change 4 should be 2d, 0n, 1p and is: %dd %dn %dp\n", change4.dodeks, change4.nicks, change4.pennies);
+
+
+
+
 }

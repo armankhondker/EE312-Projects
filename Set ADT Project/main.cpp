@@ -40,7 +40,8 @@ void randomSet(Set* s) {
 	destroySet(&t);
 }
 
-void showOutput(const char* str, Set* set) {
+void showOutput(const char* str, Set* set)
+{
 	printf("%s", str);
 	displaySet(set);
 	printf("\n");
