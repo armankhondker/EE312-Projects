@@ -82,7 +82,8 @@ void readInput(const char* file_name) {
 	displayTailAndClose();
 }
 
-int main(void) {
+int main(void) 
+{
 	readInput("test1.txt");
 	reset();
 	readInput("test2.txt");
@@ -90,4 +91,5 @@ int main(void) {
 	readInput("test3.txt");
 	reset();
     return 0;
+
 }

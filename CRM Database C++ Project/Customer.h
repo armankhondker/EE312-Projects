@@ -15,7 +15,8 @@ struct Customer {
 	int rattles;
 
 	Customer(String);
-	Customer(void) { name = "__invalid__"; } 
+	Customer(void) { name = "__invalid__"; }
+
 };
 
 #endif /* _Customer_h */
